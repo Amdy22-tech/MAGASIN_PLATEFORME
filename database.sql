@@ -73,10 +73,10 @@ CREATE TABLE IF NOT EXISTS ventes (
 
 -- Vendeurs (mot de passe: vendeur123 hashé)
 INSERT INTO users (nom, prenom, email, mot_de_passe, role) VALUES
-('MOUMOUINI ', 'Amdiyatou', 'amdi@amdys.bj', 'Amdi123@', 'admin'),
-('BONI ', 'Mariam', 'mariam@amdys.bj', 'Mrm123@', 'vendeur'),
-('MAHAMOUD', 'Wafah', 'wafahmhd@amdys.bj', 'Waf123@', 'vendeur'),
-('KORA', 'Aicha', 'aichakora@amdys.bj', 'Aicha123@', 'vendeur'),
+('MOUMOUINI ', 'Amdiyatou', 'amdi@amdys.bj', ' ', 'admin'),
+('BONI ', 'Mariam', 'mariam@amdys.bj', ' ', 'vendeur'),
+('MAHAMOUD', 'Wafah', 'wafahmhd@amdys.bj', ' ', 'vendeur'),
+('KORA', 'Aicha', 'aichakora@amdys.bj', ' ', 'vendeur'),
 
 
 -- Clients (mot de passe: client123 hashé)
